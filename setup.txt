@@ -1,0 +1,6 @@
+1. composer install
+2. Coppy file .env vào thư mục
+3. php artisan key:generate
+4. php artisan migrate:refresh 
+4. php artisan migrate:fresh --seed or php artisan migrate --seed 
+5. php artisan serve
